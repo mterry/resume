@@ -1,0 +1,85 @@
+body {
+	display: block;
+	margin-left: 10pt;
+	margin-right: 10pt;
+	font-size: 10pt;
+	font-family: "Lucida Console", monospace;
+	background-color: #AAAAAA;
+}
+
+.main {
+	width: 640pt;
+	margin: auto;
+	padding: 10pt;
+	background-color: #81D8D0;
+	box-shadow: 5pt 5pt 5pt #999999;
+}
+
+.content {
+	padding: 25pt;
+	outline-style: solid;
+	outline-width: 1pt;
+	outline-color: #AAAAAA;
+	background-color: #FDFDFD;
+	box-shadow: 5pt 5pt 5pt #61B8B0;
+}
+
+h1,h2,h3,h4 {
+	margin: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Helvetica, sans-serif;
+}
+
+h1,h2 {
+	margin-top: 0pt;
+	margin-bottom: 5pt;
+	font-size: revert;
+}
+
+h3,h4 {
+	margin: 0pt;
+	margin-top: 5pt;
+	margin-bottom: 2pt;
+	font-size: revert;
+}
+
+h1 {
+	font-size: 24pt;
+	font-style: bold;
+}
+
+h2 {
+	font-size: 14pt;
+	font-style: bold;
+}
+
+h3 {
+	font-size: 12pt;
+	font-style: bold;
+}
+
+h4 {
+	font-size: 11pt;
+	font-style: italic;
+}
+
+p {
+	margin: 0pt;
+	margin-top: 5pt;
+	margin-bottom: 0pt;
+	margin-left: 5pt;
+	text-indent: 5pt;
+}
+ul, li {
+	margin-top: 2pt;
+	margin-bottom: 1pt;
+}
+
+ul.experience > li {
+	font-weight: bold;
+}
+
+ul.experience li > ul {
+	font-weight: normal;
+}
